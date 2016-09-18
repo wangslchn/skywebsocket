@@ -514,6 +514,8 @@ class BusinessWorker extends Worker
     {
         if ($this->_registerConnection) {
             $this->_registerConnection->send('{"event":"ping"}');
+            //$this->_registerConnection->send('{"event":"Sping"}');
+
         }
     }
 }

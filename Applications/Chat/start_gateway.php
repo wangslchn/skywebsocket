@@ -34,6 +34,8 @@ $gateway->startPort = 2300;
 $gateway->pingInterval = 10;
 // 心跳数据
 $gateway->pingData = '{"type":"ping"}';
+//wangsl add
+//$gateway->pingData = '{"type":"SPing","stat":"OK"}';
 // 服务注册地址
 $gateway->registerAddress = '127.0.0.1:1236';
 
