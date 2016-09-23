@@ -126,7 +126,6 @@ class Events
 			 //echo "$res[$i]\n";
 
 			$gl_chatidstr = '"ChatId":"'.$client_id.'",';
-			$gl_chatidstr = '"ChatId":"0x0903117B",';
 
 			$res[0] = 'ALL';
 			$ToChatId = '"ToChatId":"'.$res[0].'",'; 
